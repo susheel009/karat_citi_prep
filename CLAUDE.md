@@ -11,9 +11,8 @@ interaction must serve this goal.
 
 ## Context carried over from setup session (2026-04-22)
 
-- **Opportunity origin:** Director Maureen Kotopski (SRT, Deloitte Canada) confirmed
-  2026-04-22 that senior partner Nino (Citibank account owner) specifically named
-  Susheel for the role. Cheat sheet provided by Maureen — see `prep/cheatsheet.md`.
+- **Opportunity origin:** Director confirmed on
+  2026-04-22 that senior partner (Citibank account owner) asked for the candidates for this role. Cheat sheet provided by Director for most common question — see `prep/cheatsheet.md`.
 - **Timeline:** Interview scheduled week of 2026-04-27. Exact day TBD from Tech
   Foundry.
 - **Assessment:** Two parts — Codility (coding) + Karat (AI interview).
