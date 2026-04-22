@@ -1,0 +1,31 @@
+# Level 3 Checklist
+
+- [ ] [Design Principles](../topics/level-3/design_principles.md) - Design Principles: SOLID, Chain-of-responsibility, KISS, YAGNI, Separation of Concerns, DRY Composition over Inheritance, Inversion of Control, Command Query Separation.
+- [ ] [Bitwise Operations](../topics/level-3/bitwise_operations.md) - Bitwise Operations: XOR, Left shift, Right shift.
+- [ ] [Strings](../topics/level-3/strings.md) - Strings: String formatting for different data types (float, double etc.).
+- [ ] [Streams](../topics/level-3/streams.md) - Streams: Find one/all, or else, Throws exception.
+- [ ] [HashMap](../topics/level-3/hashmap.md) - HashMap: Internal implementation and thread safety.
+- [ ] [IO](../topics/level-3/io.md) - IO: IO Streams, Reading/Writing files to/from disk, Serializing/Deserializing objects.
+- [ ] [File Conversion](../topics/level-3/file_conversion.md) - File Conversion: EDI, XML, CSV to JSON.
+- [ ] [Immutable Classes and Objects](../topics/level-3/immutable_classes_and_objects.md) - Immutable Classes and Objects: Creation and usage.
+- [ ] [Hash Collision](../topics/level-3/hash_collision.md) - Hash Collision: Handling and reasons for internal changes in HashMap with Java versions.
+- [ ] [Spring MVC](../topics/level-3/spring_mvc.md) - Spring MVC: Working of Dispatcher Servlet, Regular Expression in Request Mapping.
+- [ ] [Spring Boot](../topics/level-3/spring_boot.md) - Spring Boot: Defining custom HTTP error codes, Scheduling, Transactional behavior during errors.
+- [ ] [Aspect](../topics/level-3/aspect.md) - Aspect: Cross-cutting Concerns, Why AOP, Defining Aspects, Pointcut expressions, Joint points, Using AOP to log execution time.
+- [ ] [Garbage Collector](../topics/level-3/garbage_collector.md) - Garbage Collector: Working mechanism.
+- [ ] [Performance Issues](../topics/level-3/performance_issues.md) - Performance Issues: Identification and resolution.
+- [ ] [Binary Tree](../topics/level-3/binary_tree.md) - Binary Tree: Implementation.
+- [ ] [LRU Cache](../topics/level-3/lru_cache.md) - LRU Cache: Implementation.
+- [ ] [Threads](../topics/level-3/threads.md) - Threads: Implementing multi-threaded application, Async calls, Synchronized keyword, Critical region.
+- [ ] [Custom Connection Pool](../topics/level-3/custom_connection_pool.md) - Custom Connection Pool: Design and creation.
+- [ ] [Memory Leaks](../topics/level-3/memory_leaks.md) - Memory Leaks: Common causes, Prevention, Handling techniques, Cyclic dependencies, JVM GC handling.
+- [ ] [Event Driven Messaging Systems](../topics/level-3/event_driven_messaging_systems.md) - Event Driven Messaging Systems: Experience and scale.
+- [ ] [Kafka](../topics/level-3/kafka.md) - Kafka: Scalability, fault tolerance, monitoring.
+- [ ] [High Availability Alerts](../topics/level-3/high_availability_alerts.md) - High Availability Alerts: Common types.
+- [ ] [Deadlocks](../topics/level-3/deadlocks.md) - Deadlocks: Detection, tools, and avoidance.
+- [ ] [Critical Section of Code](../topics/level-3/critical_section_of_code.md) - Critical Section of Code: In context of race conditions.
+- [ ] [Thread Pool Size](../topics/level-3/thread_pool_size.md) - Thread Pool Size: Determination and limitations.
+- [ ] [JVM Memory Settings](../topics/level-3/jvm_memory_settings.md) - JVM Memory Settings: Configuration.
+- [ ] [GC Algorithms](../topics/level-3/gc_algorithms.md) - GC Algorithms: Different algorithms and configurations.
+- [ ] [Memory Leak Debugging](../topics/level-3/memory_leak_debugging.md) - Memory Leak Debugging: Differentiation and resolution.
+- [ ] [Latency Issues](../topics/level-3/latency_issues.md) - Latency Issues: Identification and resolution in production systems.

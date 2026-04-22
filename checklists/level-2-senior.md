@@ -1,0 +1,47 @@
+# Level 2 Checklist
+
+- [ ] [Advanced Java](../topics/level-2/advanced_java.md) - Advanced Java: Versions 17 and 21; Enhanced switch case, try-with-resources.
+- [ ] [Collections](../topics/level-2/collections.md) - Collections: Internal workings of Collections, Immutable collections.
+- [ ] [Streams](../topics/level-2/streams.md) - Streams: Using streams, lambdas, map, filter, collect, flatten etc.
+- [ ] [String class](../topics/level-2/string_class.md) - String class: Encoding, ASCII codes.
+- [ ] [Block types](../topics/level-2/block_types.md) - Block types: Static block, Instance block.
+- [ ] [Autoboxing/Auto unboxing](../topics/level-2/autoboxing_auto_unboxing.md) - Autoboxing/Auto unboxing: Compiler errors/warnings. Data truncation.
+- [ ] [IO](../topics/level-2/io.md) - IO: Buffered IO streams.
+- [ ] [Lambdas](../topics/level-2/lambdas.md) - Lambdas: Final/Effectively final variables, Atomic types.
+- [ ] [Serialization](../topics/level-2/serialization.md) - Serialization: Achieving and understanding transient modifier.
+- [ ] [Cloning](../topics/level-2/cloning.md) - Cloning: Deep vs shallow cloning.
+- [ ] [Heap and Stack](../topics/level-2/heap_and_stack.md) - Heap and Stack: Differences.
+- [ ] [Char Array vs String](../topics/level-2/char_array_vs_string.md) - Char Array vs String: Preferred usage for storing passwords.
+- [ ] [Functional Interface and Lambda Expressions](../topics/level-2/functional_interface_and_lambda_expressions.md) - Functional Interface and Lambda Expressions: Differences and usage.
+- [ ] [Custom Exceptions](../topics/level-2/custom_exceptions.md) - Custom Exceptions: Creation and usage.
+- [ ] [Inheritance and Composition](../topics/level-2/inheritance_and_composition.md) - Inheritance and Composition: Explanation and differences.
+- [ ] [Multithreading in Java](../topics/level-2/multithreading_in_java.md) - Multithreading in Java: Thread, Producer-consumer, monitor locking
+- [ ] [Concurrent Operations](../topics/level-2/concurrent_operations.md) - Concurrent Operations: Performing concurrent read and write operations on collections.
+- [ ] [Binary Tree](../topics/level-2/binary_tree.md) - Binary Tree: Implementation in Java.
+- [ ] [Custom Connection Pool](../topics/level-2/custom_connection_pool.md) - Custom Connection Pool: Design and creation.
+- [ ] [Design Patterns](../topics/level-2/design_patterns.md) - Design Patterns: Identify and implement patterns; Singleton, Factory, Adapter, Observer, Decorator, Bridge, Visitor, Template, Façade, Proxy.
+- [ ] [Stored Procedures](../topics/level-2/stored_procedures.md) - Stored Procedures: Calling from Java applications.
+- [ ] [Pagination](../topics/level-2/pagination.md) - Pagination: SQL query implementation.
+- [ ] [DB Indexes](../topics/level-2/db_indexes.md) - DB Indexes: Types and usage.
+- [ ] [Memory Leaks](../topics/level-2/memory_leaks.md) - Memory Leaks: Out of Memory Exception, Identifying Leaks.
+- [ ] [Spring](../topics/level-2/spring.md) - Spring: IoC Container.
+- [ ] [Servlets](../topics/level-2/servlets.md) - Servlets: Understanding dispatcher servlet.
+- [ ] [Circular Dependencies](../topics/level-2/circular_dependencies.md) - Circular Dependencies: Handling in Spring.
+- [ ] [Beans](../topics/level-2/beans.md) - Beans: Prototype and other scopes, ApplicationContext vs BeanFactory, Custom post-processors.
+- [ ] [Microservices](../topics/level-2/microservices.md) - Microservices: Fundamentals and orchestration.
+- [ ] [Spring Boot](../topics/level-2/spring_boot.md) - Spring Boot: Advanced features like JPA/Hibernate, Pagination, Transactions, Optimistic locking, Caching, Actuator.
+- [ ] [REST APIs](../topics/level-2/rest_apis.md) - REST APIs: Securing APIs with OAuth.
+- [ ] [ORM Technologies](../topics/level-2/orm_technologies.md) - ORM Technologies: Configuration and connection to databases. Custom DataSource, TransactionManager/PlatformTransactionManager, Propagation Behavior, Isolation levels.
+- [ ] [Locking](../topics/level-2/locking.md) - Locking: Optimistic locking with JPA, Distributed locking with Redis.
+- [ ] [Caching](../topics/level-2/caching.md) - Caching: Caching, Cache eviction.
+- [ ] [Monitoring and Alerting](../topics/level-2/monitoring_and_alerting.md) - Monitoring and Alerting: Actuator, Custom Health endpoints.
+- [ ] [Security](../topics/level-2/security.md) - Security: Using JWT, Enabling SSL, Spring Security Configuration, Endpoint matchers, Roles.
+- [ ] [SOAP Calls](../topics/level-2/soap_calls.md) - SOAP Calls: Implementation and SSL certificate handling.
+- [ ] [Data Sources](../topics/level-2/data_sources.md) - Data Sources: Configuration in Spring Boot, @Transactional, and Read only.
+- [ ] [Configuration Properties Service](../topics/level-2/configuration_properties_service.md) - Configuration Properties Service: Implementation in Spring Boot.
+- [ ] [Circuit Breaker Design Pattern](../topics/level-2/circuit_breaker_design_pattern.md) - Circuit Breaker Design Pattern: Explanation.
+- [ ] [Volatile Keyword](../topics/level-2/volatile_keyword.md) - Volatile Keyword: Usage in Java.
+- [ ] [Cloud Deployment](../topics/level-2/cloud_deployment.md) - Cloud Deployment: Deploying Spring Boot applications.
+- [ ] [Microservices](../topics/level-2/microservices.md) - Microservices: Pros/cons and implementation parameters.
+- [ ] [Parallel Service Calls](../topics/level-2/parallel_service_calls.md) - Parallel Service Calls: Implementation in Spring Boot.
+- [ ] [CI/CD](../topics/level-2/ci_cd.md) - CI/CD: Github, Jenkins/Github Action, Openshift, Docker, Kubernetes
