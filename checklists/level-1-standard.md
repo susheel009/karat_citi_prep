@@ -1,0 +1,35 @@
+# Level 1 Checklist
+
+- [ ] [Object-Oriented Programming (OOP)](../topics/level-1/object_oriented_programming_oop.md) - Object-Oriented Programming (OOP): Concepts and practical usage.
+- [ ] [Inheritance and Composition](../topics/level-1/inheritance_and_composition.md) - Inheritance and Composition: Explanation and differences.
+- [ ] [Java Fundamentals](../topics/level-1/java_fundamentals.md) - Java Fundamentals: Versions 8 and 11, Collections, Exception Handling.
+- [ ] [String class](../topics/level-1/string_class.md) - String class: Differences between String, StringBuffer, and StringBuilder; String pool and heap objects.
+- [ ] [Iterators](../topics/level-1/iterators.md) - Iterators: Fail-fast and fail-safe iterators.
+- [ ] [Access Modifiers](../topics/level-1/access_modifiers.md) - Access Modifiers: Explanation and usage.
+- [ ] [Types](../topics/level-1/types.md) - Types: Differences and usage of types, Classes, Interfaces, Enums, Abstract classes, and Annotations, Anonymous class.
+- [ ] [Pass-by-Reference vs Pass-by-Value](../topics/level-1/pass_by_reference_vs_pass_by_value.md) - Pass-by-Reference vs Pass-by-Value: Main differences.
+- [ ] [Java Versions](../topics/level-1/java_versions.md) - Java Versions: New features in Java 8, 11, 17, and 21.
+- [ ] [JVM, JRE, and JDK](../topics/level-1/jvm_jre_and_jdk.md) - JVM, JRE, and JDK: Differences and functionalities.
+- [ ] [Lambda Expressions](../topics/level-1/lambda_expressions.md) - Lambda Expressions: Usage and examples.
+- [ ] [Collections](../topics/level-1/collections.md) - Collections: Working with ArrayList, Map, Vector, Set; similarities and differences between HashSet and HashMap.
+- [ ] [Exception Handling](../topics/level-1/exception_handling.md) - Exception Handling: Exception hierarchy, and custom exceptions, chaining catch blocks.
+- [ ] [Debugging](../topics/level-1/debugging.md) - Debugging: Basic techniques.
+- [ ] [HashMap](../topics/level-1/hashmap.md) - HashMap: Storage and retrieval mechanisms.
+- [ ] [Thread](../topics/level-1/thread.md) - Thread: ThreadPool Advantages, Creation, and usage. Runnable, Thread class, methods (wait, notify, sleep, start, run, join)
+- [ ] [Immutable Classes](../topics/level-1/immutable_classes.md) - Immutable Classes: Creation and usage.
+- [ ] [LinkedList Traversal](../topics/level-1/linkedlist_traversal.md) - LinkedList Traversal: Forward and reverse traversal.
+- [ ] [Autoboxing/Auto unboxing](../topics/level-1/autoboxing_auto_unboxing.md) - Autoboxing/Auto unboxing: Explanation and usage.
+- [ ] [Relationship between hash code and equals method](../topics/level-1/relationship_between_hash_code_and_equals_method.md) - Relationship between hash code and equals method: Explanation.
+- [ ] [Design Patterns](../topics/level-1/design_patterns.md) - Design Patterns: Understand patterns; Singleton, Factory, Adapter, Observer, Decorator, Bridge, Visitor, Template.
+- [ ] [Single-Threaded Application](../topics/level-1/single_threaded_application.md) - Single-Threaded Application: Implementation.
+- [ ] [Spring Framework Fundamentals](../topics/level-1/spring_framework_fundamentals.md) - Spring Framework Fundamentals: MVC, JDBC (running select queries, executing updates, reading result sets), JPA/Hibernate.
+- [ ] [Spring Boot Fundamentals](../topics/level-1/spring_boot_fundamentals.md) - Spring Boot Fundamentals: Most used annotations, Application properties, Environment, Auto Configuration.
+- [ ] [Spring Framework vs Spring Boot](../topics/level-1/spring_framework_vs_spring_boot.md) - Spring Framework vs Spring Boot: Differences. Why Spring Boot, Why Containerization, etc.
+- [ ] [Beans](../topics/level-1/beans.md) - Beans: Bean lifecycle, Bean definition using XML, Bean definition using Java, types (eager, lazy, prototype scope, etc.).
+- [ ] [REST APIs](../topics/level-1/rest_apis.md) - REST APIs: Writing REST APIs, Defining request and response types, Request validation, API Security basics, REST mappings, HTTP methods, Default HTTP method, HTTP status codes and common errors.
+- [ ] [Spring Boot Annotations](../topics/level-1/spring_boot_annotations.md) - Spring Boot Annotations: @SpringBootApplication and @ComponentScan, @EnableAutoConfiguration, @Controller, @RestController, @Service, @Repository, etc.
+- [ ] [Unit Testing Fundamentals](../topics/level-1/unit_testing_fundamentals.md) - Unit Testing Fundamentals: Setup Unit tests in Spring Boot, Basic assertions.
+- [ ] [Profiles](../topics/level-1/profiles.md) - Profiles: Setting active profiles in Spring Boot.
+- [ ] [SQL Integration](../topics/level-1/sql_integration.md) - SQL Integration: Calling SQL queries/updates/procedures from Java applications.
+- [ ] [Code repository](../topics/level-1/code_repository.md) - Code repository: Bitbucket/Github,
+- [ ] [Agile Methodology](../topics/level-1/agile_methodology.md) - Agile Methodology
