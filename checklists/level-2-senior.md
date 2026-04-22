@@ -28,7 +28,7 @@
 - [ ] [Servlets](../topics/level-2/servlets.md) - Servlets: Understanding dispatcher servlet.
 - [ ] [Circular Dependencies](../topics/level-2/circular_dependencies.md) - Circular Dependencies: Handling in Spring.
 - [ ] [Beans](../topics/level-2/beans.md) - Beans: Prototype and other scopes, ApplicationContext vs BeanFactory, Custom post-processors.
-- [ ] [Microservices](../topics/level-2/microservices.md) - Microservices: Fundamentals and orchestration.
+- [ ] [Microservices](../topics/level-2/microservices.md) - Microservices: Fundamentals, orchestration, pros/cons, and implementation parameters.
 - [ ] [Spring Boot](../topics/level-2/spring_boot.md) - Spring Boot: Advanced features like JPA/Hibernate, Pagination, Transactions, Optimistic locking, Caching, Actuator.
 - [ ] [REST APIs](../topics/level-2/rest_apis.md) - REST APIs: Securing APIs with OAuth.
 - [ ] [ORM Technologies](../topics/level-2/orm_technologies.md) - ORM Technologies: Configuration and connection to databases. Custom DataSource, TransactionManager/PlatformTransactionManager, Propagation Behavior, Isolation levels.
@@ -41,7 +41,5 @@
 - [ ] [Configuration Properties Service](../topics/level-2/configuration_properties_service.md) - Configuration Properties Service: Implementation in Spring Boot.
 - [ ] [Circuit Breaker Design Pattern](../topics/level-2/circuit_breaker_design_pattern.md) - Circuit Breaker Design Pattern: Explanation.
 - [ ] [Volatile Keyword](../topics/level-2/volatile_keyword.md) - Volatile Keyword: Usage in Java.
-- [ ] [Cloud Deployment](../topics/level-2/cloud_deployment.md) - Cloud Deployment: Deploying Spring Boot applications.
-- [ ] [Microservices](../topics/level-2/microservices.md) - Microservices: Pros/cons and implementation parameters.
-- [ ] [Parallel Service Calls](../topics/level-2/parallel_service_calls.md) - Parallel Service Calls: Implementation in Spring Boot.
+- [ ] [Cloud Deployment](../topics/level-2/cloud_deployment.md) - Cloud Deployment: Deploying Spring Boot applications.- [ ] [Parallel Service Calls](../topics/level-2/parallel_service_calls.md) - Parallel Service Calls: Implementation in Spring Boot.
 - [ ] [CI/CD](../topics/level-2/ci_cd.md) - CI/CD: Github, Jenkins/Github Action, Openshift, Docker, Kubernetes
