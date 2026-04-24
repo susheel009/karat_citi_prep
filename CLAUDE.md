@@ -70,6 +70,8 @@ interaction must serve this goal.
 7. ALWAYS end a topic response with (a) a self-check question he answers out loud,
    (b) a gotcha a Karat interviewer might probe.
 8. ALWAYS ask when in doubt — do not invent behavior.
+9. ALWAYS update `_status.yaml` tracking fields during and after each topic
+   session (see Progress Tracking below).
 
 ## Per-topic response template
 
@@ -104,18 +106,69 @@ interaction must serve this goal.
 ## Workflow contract
 
 - user says "start level 2 streams" → Claude generates
-  `topics/level-2/streams.md`, updates `_status.yaml` to `in_progress`.
+  `topics/level-2/streams.md`, updates `_status.yaml` to `in_progress`,
+  sets `first_reviewed` to today's date.
 - user reads, writes code in IDE, asks clarifying questions.
 - Claude answers questions inline — does NOT rewrite the topic file unless asked.
-- user says "mark complete" → Claude updates `_status.yaml` to `complete`,
-  confirms, asks "next topic?" — nothing more.
+  Each clarifying question increments `follow_ups` by 1 in `_status.yaml`.
+  If user says something is confusing or asks for simpler explanation, note the
+  specific concept in `struggled_with`.
+- user says "mark complete" → Claude asks "understanding 1–4?" (see scale below),
+  updates `_status.yaml`: `status: complete`, `understanding: <answer>`,
+  `last_reviewed: <today>`. Confirms, asks "next topic?" — nothing more.
 - user says "skip" → Claude marks `skipped` with reason, moves on.
+
+## Progress tracking
+
+`_status.yaml` is personal (gitignored). It tracks study progress per topic.
+
+### Understanding scale
+
+| Level | Meaning | Revision priority |
+|:-----:|---------|:-----------------:|
+| 1 | Struggled — needed major re-explanation | 🔴 Revise first |
+| 2 | Needed help — understood after follow-ups | 🟡 Revise soon |
+| 3 | Got it — understood on first read, minor clarifications | 🟢 Quick refresh |
+| 4 | Can teach — can nail the 4-beat answer cold | ⭐ Skip |
+
+### What to track per topic
+
+- `understanding`: 0 (not reviewed) through 4 (can teach)
+- `follow_ups`: count of clarification questions asked during study
+- `struggled_with`: list of specific sub-concepts that needed re-explanation
+- `first_reviewed`: date first studied
+- `last_reviewed`: date last touched
+
+### Rules for tracking
+
+1. When user starts a topic: set `status: in_progress`, `first_reviewed: <today>`.
+2. When user asks a clarifying question: increment `follow_ups` by 1.
+3. When user asks for simpler explanation or says they don't understand: add the
+   specific concept to `struggled_with`.
+4. When user says "mark complete": ask "understanding 1–4?" then update all fields.
+5. When user revisits a topic: update `last_reviewed` to today.
+6. After updating `_status.yaml`, regenerate `_revision_summary.md`.
+
+### Commands
+
+- **"show revision queue"** → Read `_status.yaml`, list all topics with
+  `understanding` 1 or 2, sorted by: understanding ASC, then days-since-last-review
+  DESC. Include topic name, level, understanding, follow_ups, and struggled_with.
+- **"quiz me on level N"** → Pick a random topic from level N that has
+  `status: complete`. Read its self-check question from the topic file. User
+  answers. Claude evaluates and updates understanding if appropriate.
+- **"show progress"** → Summary stats: topics per status per level, average
+  understanding per level, total follow-ups.
+- **"revision summary"** → Regenerate `_revision_summary.md` with all topics
+  grouped by revision priority (🔴 → 🟡 → 🟢 → ⭐).
 
 ## Repo structure (create if missing)
 
 ```
 karat-citi-prep/
 ├── CLAUDE.md                         # this file
+├── README.md                         # usage guide (tool + no-tool)
+├── .gitignore                        # excludes _status.yaml, _revision_summary.md
 ├── prep/
 │   ├── cheatsheet.md                 # Director's email verbatim
 │   └── self_audit.md                 # G/Y/R self-audit (Level 1 + Level 2)
@@ -130,11 +183,15 @@ karat-citi-prep/
 ├── codility/
 │   ├── attempts/
 │   └── patterns.md
-└── _status.yaml
+├── _status.yaml.template             # progress tracking template (shared)
+├── _status.yaml                      # personal progress (gitignored, local)
+└── _revision_summary.md              # auto-generated revision priority (gitignored)
 ```
 
 ## First action when a session opens
 
+- If `_status.yaml` does not exist: copy `_status.yaml.template` to `_status.yaml`
+  silently (it's gitignored — personal tracking).
 - If `prep/cheatsheet.md` does not exist: ask user to add it before proceeding.
 - If `checklists/level-1-standard.md` does not exist: offer to generate the three
   level checklists from `prep/cheatsheet.md`, then stop.
@@ -147,5 +204,6 @@ karat-citi-prep/
 
 At the start of any session, reply with exactly one sentence stating what you
 have loaded and what the next action is. No preamble, no summary of these rules.
-Example: "Loaded. `_status.yaml` shows 3 Level 2 topics complete, `streams`
-in_progress. Resume streams?"
+Include progress stats.
+Example: "Loaded. `_status.yaml` shows 12/44 Level 2 topics complete (avg
+understanding: 3.1), `streams` in_progress. Resume streams?"
