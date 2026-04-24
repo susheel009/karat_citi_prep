@@ -1,0 +1,880 @@
+# Progress Tracking Template
+# Copy to _status.yaml to start tracking: cp _status.yaml.template _status.yaml
+# _status.yaml is gitignored — your progress stays local.
+#
+# Fields per topic:
+#   status:         pending | in_progress | complete | skipped
+#   understanding:  0 (not reviewed) | 1 (struggled) | 2 (needed help) | 3 (got it) | 4 (can teach)
+#   follow_ups:     number of clarification questions asked during study
+#   struggled_with: list of specific sub-concepts that needed re-explanation
+#   first_reviewed:  date first studied (YYYY-MM-DD)
+#   last_reviewed:   date last touched (YYYY-MM-DD)
+
+meta:
+  interview_window: 2026-04-27 to 2026-05-01
+  last_updated: ''
+  understanding_scale:
+    0: not reviewed
+    1: struggled — needed major re-explanation
+    2: needed help — understood after follow-ups
+    3: got it — understood on first read, minor clarifications
+    4: can teach — can nail the 4-beat answer cold
+
+levels:
+  level_1:
+    status: pending
+    topics:
+      object_oriented_programming_oop:
+        status: pending
+        file: topics/level-1/object_oriented_programming_oop.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      inheritance_and_composition:
+        status: pending
+        file: topics/level-1/inheritance_and_composition.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      java_fundamentals:
+        status: pending
+        file: topics/level-1/java_fundamentals.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      string_class:
+        status: pending
+        file: topics/level-1/string_class.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      iterators:
+        status: pending
+        file: topics/level-1/iterators.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      access_modifiers:
+        status: pending
+        file: topics/level-1/access_modifiers.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      types:
+        status: pending
+        file: topics/level-1/types.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      pass_by_reference_vs_pass_by_value:
+        status: pending
+        file: topics/level-1/pass_by_reference_vs_pass_by_value.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      java_versions:
+        status: pending
+        file: topics/level-1/java_versions.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      jvm_jre_and_jdk:
+        status: pending
+        file: topics/level-1/jvm_jre_and_jdk.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      lambda_expressions:
+        status: pending
+        file: topics/level-1/lambda_expressions.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      collections:
+        status: pending
+        file: topics/level-1/collections.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      exception_handling:
+        status: pending
+        file: topics/level-1/exception_handling.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      debugging:
+        status: pending
+        file: topics/level-1/debugging.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      hashmap:
+        status: pending
+        file: topics/level-1/hashmap.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      thread:
+        status: pending
+        file: topics/level-1/thread.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      immutable_classes:
+        status: pending
+        file: topics/level-1/immutable_classes.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      linkedlist_traversal:
+        status: pending
+        file: topics/level-1/linkedlist_traversal.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      autoboxing_auto_unboxing:
+        status: pending
+        file: topics/level-1/autoboxing_auto_unboxing.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      relationship_between_hash_code_and_equals_method:
+        status: pending
+        file: topics/level-1/relationship_between_hash_code_and_equals_method.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      design_patterns:
+        status: pending
+        file: topics/level-1/design_patterns.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      single_threaded_application:
+        status: pending
+        file: topics/level-1/single_threaded_application.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      spring_framework_fundamentals:
+        status: pending
+        file: topics/level-1/spring_framework_fundamentals.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      spring_boot_fundamentals:
+        status: pending
+        file: topics/level-1/spring_boot_fundamentals.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      spring_framework_vs_spring_boot:
+        status: pending
+        file: topics/level-1/spring_framework_vs_spring_boot.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      beans:
+        status: pending
+        file: topics/level-1/beans.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      rest_apis:
+        status: pending
+        file: topics/level-1/rest_apis.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      spring_boot_annotations:
+        status: pending
+        file: topics/level-1/spring_boot_annotations.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      unit_testing_fundamentals:
+        status: pending
+        file: topics/level-1/unit_testing_fundamentals.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      profiles:
+        status: pending
+        file: topics/level-1/profiles.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      sql_integration:
+        status: pending
+        file: topics/level-1/sql_integration.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      code_repository:
+        status: pending
+        file: topics/level-1/code_repository.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      agile_methodology:
+        status: pending
+        file: topics/level-1/agile_methodology.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+  level_2:
+    status: pending
+    topics:
+      advanced_java:
+        status: pending
+        file: topics/level-2/advanced_java.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      collections:
+        status: pending
+        file: topics/level-2/collections.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      streams:
+        status: pending
+        file: topics/level-2/streams.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      string_class:
+        status: pending
+        file: topics/level-2/string_class.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      block_types:
+        status: pending
+        file: topics/level-2/block_types.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      autoboxing_auto_unboxing:
+        status: pending
+        file: topics/level-2/autoboxing_auto_unboxing.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      io:
+        status: pending
+        file: topics/level-2/io.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      lambdas:
+        status: pending
+        file: topics/level-2/lambdas.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      serialization:
+        status: pending
+        file: topics/level-2/serialization.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      cloning:
+        status: pending
+        file: topics/level-2/cloning.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      heap_and_stack:
+        status: pending
+        file: topics/level-2/heap_and_stack.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      char_array_vs_string:
+        status: pending
+        file: topics/level-2/char_array_vs_string.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      functional_interface_and_lambda_expressions:
+        status: pending
+        file: topics/level-2/functional_interface_and_lambda_expressions.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      custom_exceptions:
+        status: pending
+        file: topics/level-2/custom_exceptions.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      inheritance_and_composition:
+        status: pending
+        file: topics/level-2/inheritance_and_composition.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      multithreading_in_java:
+        status: pending
+        file: topics/level-2/multithreading_in_java.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      concurrent_operations:
+        status: pending
+        file: topics/level-2/concurrent_operations.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      binary_tree:
+        status: pending
+        file: topics/level-2/binary_tree.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      custom_connection_pool:
+        status: pending
+        file: topics/level-2/custom_connection_pool.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      design_patterns:
+        status: pending
+        file: topics/level-2/design_patterns.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      stored_procedures:
+        status: pending
+        file: topics/level-2/stored_procedures.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      pagination:
+        status: pending
+        file: topics/level-2/pagination.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      db_indexes:
+        status: pending
+        file: topics/level-2/db_indexes.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      memory_leaks:
+        status: pending
+        file: topics/level-2/memory_leaks.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      spring:
+        status: pending
+        file: topics/level-2/spring.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      servlets:
+        status: pending
+        file: topics/level-2/servlets.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      circular_dependencies:
+        status: pending
+        file: topics/level-2/circular_dependencies.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      beans:
+        status: pending
+        file: topics/level-2/beans.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      microservices:
+        status: pending
+        file: topics/level-2/microservices.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      spring_boot:
+        status: pending
+        file: topics/level-2/spring_boot.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      rest_apis:
+        status: pending
+        file: topics/level-2/rest_apis.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      orm_technologies:
+        status: pending
+        file: topics/level-2/orm_technologies.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      locking:
+        status: pending
+        file: topics/level-2/locking.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      caching:
+        status: pending
+        file: topics/level-2/caching.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      monitoring_and_alerting:
+        status: pending
+        file: topics/level-2/monitoring_and_alerting.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      security:
+        status: pending
+        file: topics/level-2/security.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      soap_calls:
+        status: pending
+        file: topics/level-2/soap_calls.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      data_sources:
+        status: pending
+        file: topics/level-2/data_sources.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      configuration_properties_service:
+        status: pending
+        file: topics/level-2/configuration_properties_service.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      circuit_breaker_design_pattern:
+        status: pending
+        file: topics/level-2/circuit_breaker_design_pattern.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      volatile_keyword:
+        status: pending
+        file: topics/level-2/volatile_keyword.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      cloud_deployment:
+        status: pending
+        file: topics/level-2/cloud_deployment.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      parallel_service_calls:
+        status: pending
+        file: topics/level-2/parallel_service_calls.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      ci_cd:
+        status: pending
+        file: topics/level-2/ci_cd.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+  level_3:
+    status: pending
+    topics:
+      design_principles:
+        status: pending
+        file: topics/level-3/design_principles.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      bitwise_operations:
+        status: pending
+        file: topics/level-3/bitwise_operations.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      strings:
+        status: pending
+        file: topics/level-3/strings.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      streams:
+        status: pending
+        file: topics/level-3/streams.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      hashmap:
+        status: pending
+        file: topics/level-3/hashmap.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      io:
+        status: pending
+        file: topics/level-3/io.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      file_conversion:
+        status: pending
+        file: topics/level-3/file_conversion.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      immutable_classes_and_objects:
+        status: pending
+        file: topics/level-3/immutable_classes_and_objects.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      hash_collision:
+        status: pending
+        file: topics/level-3/hash_collision.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      spring_mvc:
+        status: pending
+        file: topics/level-3/spring_mvc.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      spring_boot:
+        status: pending
+        file: topics/level-3/spring_boot.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      aspect:
+        status: pending
+        file: topics/level-3/aspect.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      garbage_collector:
+        status: pending
+        file: topics/level-3/garbage_collector.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      performance_issues:
+        status: pending
+        file: topics/level-3/performance_issues.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      binary_tree:
+        status: pending
+        file: topics/level-3/binary_tree.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      lru_cache:
+        status: pending
+        file: topics/level-3/lru_cache.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      threads:
+        status: pending
+        file: topics/level-3/threads.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      custom_connection_pool:
+        status: pending
+        file: topics/level-3/custom_connection_pool.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      memory_leaks:
+        status: pending
+        file: topics/level-3/memory_leaks.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      event_driven_messaging_systems:
+        status: pending
+        file: topics/level-3/event_driven_messaging_systems.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      kafka:
+        status: pending
+        file: topics/level-3/kafka.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      high_availability_alerts:
+        status: pending
+        file: topics/level-3/high_availability_alerts.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      deadlocks:
+        status: pending
+        file: topics/level-3/deadlocks.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      critical_section_of_code:
+        status: pending
+        file: topics/level-3/critical_section_of_code.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      thread_pool_size:
+        status: pending
+        file: topics/level-3/thread_pool_size.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      jvm_memory_settings:
+        status: pending
+        file: topics/level-3/jvm_memory_settings.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      gc_algorithms:
+        status: pending
+        file: topics/level-3/gc_algorithms.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      memory_leak_debugging:
+        status: pending
+        file: topics/level-3/memory_leak_debugging.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''
+      latency_issues:
+        status: pending
+        file: topics/level-3/latency_issues.md
+        understanding: 0
+        follow_ups: 0
+        struggled_with: []
+        first_reviewed: ''
+        last_reviewed: ''

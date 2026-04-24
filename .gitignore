@@ -1,0 +1,10 @@
+# Personal tracking (each user maintains their own)
+_status.yaml
+_revision_summary.md
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
