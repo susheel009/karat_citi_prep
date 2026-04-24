@@ -4,7 +4,7 @@
 
 ## Mission
 
-This repo exists to help Susheel Mondithoka prepare for a Citibank Java interview
+This repo exists to help candidates prepare for a Citibank Java interview
 via Deloitte's Tech Foundry process. Interview window: week of 2026-04-27.
 Assessment format: Codility (coding test) + Karat (AI-driven interview). Every
 interaction must serve this goal.
@@ -25,7 +25,7 @@ interaction must serve this goal.
   for voice-chat review — but only set up AFTER 2-3 topics are committed here.
   Do not setup-optimize early.
 - **Secondary purpose:** Material generated here may be shared with other Deloitte
-  candidates per Maureen's coaching ask. Keep personal life / health / immigration
+  candidates per Directors's coaching ask. Keep personal life / health / immigration
   / psychology OUT of this repo.
 
 ## Learner profile — tailor teaching style to this
@@ -59,7 +59,7 @@ interaction must serve this goal.
 
 1. NEVER generate topic material without first checking `_status.yaml` for the
    topic's state. If it's `complete`, ask before rewriting.
-2. NEVER mark a topic `complete` in `_status.yaml` unless Susheel explicitly says
+2. NEVER mark a topic `complete` in `_status.yaml` unless user explicitly says
    "mark complete" or "done with X." Your inference is not enough.
 3. NEVER skip ahead to a new topic if the current one is `in_progress` with open
    questions. Finish it or let the user close it.
@@ -103,13 +103,13 @@ interaction must serve this goal.
 
 ## Workflow contract
 
-- Susheel says "start level 2 streams" → Claude generates
+- user says "start level 2 streams" → Claude generates
   `topics/level-2/streams.md`, updates `_status.yaml` to `in_progress`.
-- Susheel reads, writes code in IDE, asks clarifying questions.
+- user reads, writes code in IDE, asks clarifying questions.
 - Claude answers questions inline — does NOT rewrite the topic file unless asked.
-- Susheel says "mark complete" → Claude updates `_status.yaml` to `complete`,
+- user says "mark complete" → Claude updates `_status.yaml` to `complete`,
   confirms, asks "next topic?" — nothing more.
-- Susheel says "skip" → Claude marks `skipped` with reason, moves on.
+- user says "skip" → Claude marks `skipped` with reason, moves on.
 
 ## Repo structure (create if missing)
 
@@ -117,7 +117,7 @@ interaction must serve this goal.
 karat-citi-prep/
 ├── CLAUDE.md                         # this file
 ├── prep/
-│   ├── cheatsheet.md                 # Maureen's email verbatim
+│   ├── cheatsheet.md                 # Director's email verbatim
 │   └── self_audit.md                 # G/Y/R self-audit (Level 1 + Level 2)
 ├── checklists/
 │   ├── level-1-standard.md
@@ -135,10 +135,10 @@ karat-citi-prep/
 
 ## First action when a session opens
 
-- If `prep/cheatsheet.md` does not exist: ask Susheel to add it before proceeding.
+- If `prep/cheatsheet.md` does not exist: ask user to add it before proceeding.
 - If `checklists/level-1-standard.md` does not exist: offer to generate the three
   level checklists from `prep/cheatsheet.md`, then stop.
-- If `prep/self_audit.md` does not exist: remind Susheel ONCE — "Audit (G/Y/R on
+- If `prep/self_audit.md` does not exist: remind user ONCE — "Audit (G/Y/R on
   Level 1+2 topics) should come before the first topic. 25 min, pen-and-paper.
   Want to do it now or skip?" — then follow his choice.
 - If both exist and user asks for a topic, follow the workflow contract.
